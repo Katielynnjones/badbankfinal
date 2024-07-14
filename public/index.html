@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bad Bank</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- don't use this in production: <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>-->
+    
+  </head>
+  <body>
+    <!-- we will put our react component inside this div -->
+    <div id="root"></div>
+
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+
+    <script src="https://unpkg.com/react-router-dom@6/umd/react-router-dom.production.min.js"></script>
+
+    <!-- load our react component. -->
+    <script type="module" src="context.js" defer></script>
+    <script type="module" src="navbar.js" defer></script>
+    <script type="module" src="createaccount.js" defer></script>
+    <script type="module" src="login.js" defer></script>
+    <script type="module" src="deposit.js" defer></script>
+    <script type="module" src="withdraw.js" defer></script>
+    <!-- <script type="module" src="transactions.js" defer></script> -->
+    <script type="module" src="balance.js" defer></script>
+    <script type="module" src="alldata.js" defer></script>
+    <script type="module" src="home.js" defer></script>
+    <script type="module" src="index.js" defer></script>
+  </body>
+</html>
+
